@@ -10,7 +10,7 @@ const contactSchema = z.object({
   message: z.string().trim().min(1, "Message is required").max(2000, "Message must be less than 2000 characters"),
 });
 
-const WEB3FORMS_ACCESS_KEY = "YOUR_ACCESS_KEY_HERE"; // Replace with your Web3Forms access key
+const WEB3FORMS_ACCESS_KEY = "55d057c9-9787-46bd-8b07-e8291cc27a63"; // Replace with your Web3Forms access key
 
 const Contact = () => {
   const ref = useRef(null);
